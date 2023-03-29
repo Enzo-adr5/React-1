@@ -14,7 +14,7 @@ function PokemonCards(props) {
     );
 }
 
-PokemonCards.prototype = {
+PokemonCards.propTypes = {
     props: PropTypes.shape({
         name: PropTypes.string.isrequired,
         imgSrc: PropTypes.string,
